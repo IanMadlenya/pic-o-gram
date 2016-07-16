@@ -1,4 +1,15 @@
-<h1> Photogram </h2>
-  No pictures yet
-  <br>
-  <a href="#"> Add a picture </a>
+<% if @posts.any? %>
+<% @posts.each do |post| %>
+<h2>
+    <%= image_tag (post.image.url(:thumb)) %>
+    <%= post.caption %>
+</h2>
+<br>
+<%end%>
+<%else%>
+No pictures yet
+<%end%>
+<br>
+<a href="/posts/new">
+    Add a picture
+</a>

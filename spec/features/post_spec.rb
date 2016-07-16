@@ -6,12 +6,11 @@ feature 'posts' do
       expect(page).to have_link 'Add a picture'
     end
   end
-  context 'add picture' do
+  context 'some pictures' do
     scenario 'user should be able to add pictures' do
-      visit '/posts/new'
-      click_button 'Choose File'
-
-
+      visit '/posts'
+      click_link 'Add a picture'
+      expect(page).to have_content 'Image'
     end
   end
 end
