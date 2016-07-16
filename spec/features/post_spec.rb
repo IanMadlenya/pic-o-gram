@@ -12,5 +12,7 @@ feature 'posts' do
       click_link 'Add a picture'
       expect(page).to have_content 'Image'
     end
+
   end
+
 end
