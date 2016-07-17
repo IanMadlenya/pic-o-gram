@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*   Ruby version: 5.0.0
+*   Configuration: Run `bundle`
+*   Database creation: Run `bin/rake db:create`
+*   Test suite: Run `rspec`
 
-Things you may want to cover:
 
-* Ruby version
+## User Stories
 
-* System dependencies
+```text
+As a user
+So that I can use the application
+I want to be able to signup
+```
 
-* Configuration
+```text
+As a user
+So that I can post pictures or write comments
+I want to log in to the site
+```
 
-* Database creation
+```text
+As a user
+So that I can have some fun
+I want see a list of pictures
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```text
+As a user
+So other users can know my reaction to their pictures
+I want to be able to comment on a picture
+```
