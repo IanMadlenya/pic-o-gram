@@ -31,3 +31,9 @@ As a user
 So other users can know my reaction to their pictures
 I want to be able to comment on a picture
 ```
+
+```text
+As a user
+So that I can show people my awesome life
+I want to be able to post pictures
+```
